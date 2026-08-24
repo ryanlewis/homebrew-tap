@@ -7,7 +7,7 @@ cask "mousebinder" do
   desc "Bind extra mouse buttons to Mission Control, App Exposé, Launchpad, or Show Desktop"
   homepage "https://github.com/ryanlewis/mousebinder"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "MouseBinder.app"
