@@ -1,6 +1,6 @@
 cask "mousebinder" do
-  version "0.1.1"
-  sha256 "e85ee8614596ba48143780954bce815512793a279f43eae2970b6d2740e1f5f5"
+  version "0.1.2"
+  sha256 "f9766f6e2c92b0e3e7135c02535cf1ab6e4f6c1b24e941b249ef09488e02aff3"
 
   url "https://github.com/ryanlewis/mousebinder/releases/download/v#{version}/MouseBinder-#{version}.zip"
   name "MouseBinder"
