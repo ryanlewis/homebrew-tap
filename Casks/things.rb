@@ -4,12 +4,12 @@ cask "things" do
 
   on_macos do
     on_arm do
-      sha256 "0e0c137a191fe70fc350552f7586e97f316e5eb668feaff77f2ae563b9d2e83f"
+      sha256 "bb81f03de7597dc706322f98e5529cadfe12601f2f37ee5ff8582312b767b063"
       url "https://github.com/ryanlewis/things-cli/releases/download/v#{version}/things_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/ryanlewis/things-cli/"
     end
     on_intel do
-      sha256 "a12686d0395454a8d9bcaf375e0c17251f80b2ab9b3b5d1afc298c11532afa8b"
+      sha256 "edbfc92f7605d97994f8dc4ac3b0fdad8f71fba1d02496342b4ae5cf35c29a86"
       url "https://github.com/ryanlewis/things-cli/releases/download/v#{version}/things_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/ryanlewis/things-cli/"
     end
